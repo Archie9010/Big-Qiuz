@@ -10,6 +10,7 @@ body{
     background-repeat: no-repeat;
     height: 100vh;
 }
+/*Website title */
 #title{
     text-align: center;
     padding: 0.8rem 0;
@@ -17,6 +18,7 @@ body{
     color: black;
     font-family: 'Times New Roman', Times, serif;
 }
+/*question box*/
 .questions{
     margin: 3rem auto;
     width: 90vw;
@@ -38,4 +40,30 @@ body{
 }
 .option:hover{
     color: white;
+}
+ol{
+    position: relative;
+    padding: 0 1.5rem;
+    color: rgb(1,73,73);
+}
+span{
+    display: block;
+    padding: 0.1rem 0.7rem;
+    border-radius: 1rem;
+}
+#answer{
+    margin-top: 2.5rem;
+}
+#stat{
+    margin-top: 1.5rem;
+    color: rgb(6,17,168);
+}
+button{
+    padding: 0.2rem 1.5rem;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    border-radius: 1.5rem;
+    color: rgba(2, 2, 2, 0.98);
+    background: rgba(242, 242, 237, 0.82);
 }
