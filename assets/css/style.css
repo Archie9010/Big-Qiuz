@@ -17,3 +17,11 @@ body{
     color: black;
     font-family: 'Times New Roman', Times, serif;
 }
+.questions{
+    margin: 3rem auto;
+    width: 90vw;
+    padding: 2rem;
+    background: rgba(43, 78, 175, 0.45);
+    cursor: default;
+    border-radius: 1rem;
+}
