@@ -67,3 +67,6 @@ button{
     color: rgba(2, 2, 2, 0.98);
     background: rgba(242, 242, 237, 0.82);
 }
+button:active{
+    background: lavender;
+}
