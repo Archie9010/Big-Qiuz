@@ -105,6 +105,11 @@ function nextQuestion(){
 //click events to next question button
 next.addEventListener('click',nextQuestion);
 
+//Back to Quiz button event
+    function backToQuiz(){
+        location.reload();
+    }
+
 //function to check answers
 function checkAnswer(){
     var answerBank= document.getElementById('answerBank');
