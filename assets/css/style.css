@@ -65,6 +65,9 @@ span{
 #stat{
     margin-top: 1.5rem;
     color: rgb(6,17,168);
+}	
+.buttons{	
+    text-align: center;	
 }
 button{
     padding: 0.2rem 1.5rem;
