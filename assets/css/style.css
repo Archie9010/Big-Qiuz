@@ -10,6 +10,14 @@ body{
     background-repeat: no-repeat;
     height: 100vh;
 }
+img{	
+    width: 5.5rem;	
+    height: 5.2rem;	
+    border-radius: 50%;	
+}	
+.img{	
+    position: fixed;	
+}
 /*Website title */
 #title{
     text-align: center;
