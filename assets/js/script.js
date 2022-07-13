@@ -89,6 +89,19 @@ function calcScore(e){
     }
     setTimeout(nextQuestion,300);
 }
+//function to display next question
+function nextQuestion(){
+    if(i<questionBank.length-1)
+    {
+        i=i+1;
+        displayQuestion();
+    }
+    else{
+        points.innerHTML= score+ '/'+ questionBank.length;
+        quizContainer.style.display= 'none';
+        scoreboard.style.display= 'block'
+    }
+}
 //click events to next question button
 next.addEventListener('click',nextQuestion);
 
